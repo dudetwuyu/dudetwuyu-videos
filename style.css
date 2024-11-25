@@ -27,5 +27,17 @@ h1{
     font-size: 34px;
 }
 .categoria{
-    background:white ;
+    background:white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-videos{
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
 }
